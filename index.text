@@ -12,3 +12,4 @@ và thực hiệt đẩy file lên bằng cách git push
 **** câu lệnh dùng để tạo nhánh khác từ nhánh master 
 git checkout -b (tên nhánh mới)  vd: git checkout -b developer 
 
+** chú ý là khi git push mà khác nhánh cần phải set-upstream origin về nháh đang đứng mới có thể push code lên được vd cho về nhánh đang đứng là developer:  git push --set-upstream origin developer  (terminal sẽ tự support đoạn code này)
