@@ -5,8 +5,8 @@
  let tableTR2 = table2.getElementsByTagName("tr");
 console.log(tableTR1);
 
-tableTR1.array.forEach(row => {
+tableTR1.array.forEach((row) => {
     const setheight = tableTR2[1].offsetHeight * 3;
 
-    row.setheight = '${setheight}px';
+    row.style.setheight = '${setheight}px';
 });
