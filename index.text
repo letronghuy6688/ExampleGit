@@ -25,3 +25,6 @@ git checkout (tên nhánh muốn chuyển qua)
 git pull 
 
 ** khi 2 ng cùng code có sự thay đổi trên sever thì khi pull code về nó sảy ra hiện tượng là có cả của mình vs của ng khác:   cách giữ lại code của cả 2
+
+
+/* code trên sever 
