@@ -15,4 +15,13 @@ git checkout -b (tên nhánh mới)  vd: git checkout -b developer
 ** chú ý là khi git push mà khác nhánh cần phải set-upstream origin về nháh đang đứng mới có thể push code lên được vd cho về nhánh đang đứng là developer:  git push --set-upstream origin developer  (terminal sẽ tự support đoạn code này)
 
 
-/* code được thêm vào từ trên sever 
+**** kiểm tra các nhánh có trên local 
+git branch 
+
+**** chuyển nhánh branch dùng câu lệnh 
+git checkout (tên nhánh muốn chuyển qua)
+
+** câu lệnh kéo code từ trên git về máy 
+git pull 
+
+** khi 2 ng cùng code có sự thay đổi trên sever thì khi pull code về nó sảy ra hiện tượng là có cả của mình vs của ng khác:   cách giữ lại code của cả 2
